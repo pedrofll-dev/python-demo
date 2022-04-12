@@ -28,10 +28,12 @@ oferecida no primeiro semestre de 2022, na Unicamp, sob supervisão da Profa. Dr
 >     
 > * Etapa 3 (3 semanas): Codificação e Testes.
 > 
->     Codificação e treinamento de ferramentas utilizando python(PyTorch) e formatação de uma GUI,  Além de comparação qualitativa dos resultados.
+>     Codificação e treinamento de ferramentas utilizando 'python 3.6', 'numpy','PyTorch' e formatação de uma GUI,  Além de comparação qualitativa dos resultados.
 >     
 > * Etapa 4 (2 semanas): Relatório Final.
 >      Formatação do relatorio final descrevendo os metodos utilizados, a base matemática do projeto, e os resultados finais.
+> * Etapa 5 (1 semanas): Criação de um vídeo demonstrando o projeto.
+>       publicação do video ,com propósito educativo, de todas as etapas, resultados e desafios do projeto afim de melhor divulgação científica do tema. 
 >     
 
 ## Referências Bibliográficas
