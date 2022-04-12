@@ -1,5 +1,5 @@
-# `<Restauracao e melhoramento de imagem >`
-# `<Image enhancement and restoration>`
+# `Restauracao e melhoramento de imagem `
+# `Image enhancement and restoration`
 
 ## Apresentação
 
