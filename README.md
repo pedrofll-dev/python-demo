@@ -1,3 +1,53 @@
+# `<Restauracao e melhoramento de imagem >`
+# `<Image enhancement and restoration>`
+
+## Apresentação
+
+O presente projeto foi originado no contexto das atividades da disciplina de pós-graduação *EA979A - Introdução a Computação Gráfica e Processamento de Imagens*, 
+oferecida no primeiro semestre de 2022, na Unicamp, sob supervisão da Profa. Dra. Paula Dornhofer Paro Costa, do Departamento de Engenharia de Computação e Automação (DCA) da Faculdade de Engenharia Elétrica e de Computação (FEEC).
+
+> |Nome  | RA | Curso|
+> |--|--|--|
+> | Pedro Felipe Lucena Lima  | 204536  | Eng. Elétrica|
+
+
+## Descrição do Projeto
+> O projeto tem finalidade de desenvolver e aplicar tecnicas de restauracao de imagens, em especial com uso de machine learning (Neural upscale),para imagens de baixa resolução ou de qualidade gráfica pobre.
+> O principal encorajamento desse projeto é a popularização do uso de IA para o upscaling de imagens (Nvidia DLSS,AMD FSR,NIS,etc.) para reduzir o custo computacional de processamento de imagem ou simples melhora gráfica.
+> A meta final é utilizar os algoritmos desenvolvidos em imagens de baixa resolução e uma possível implementação desses para a criação de um pack de texturas em um dado videogame.
+
+
+## Plano de Trabalho
+
+> * Etapa 1 (3 semanas): Estudo de técnicas de Upscaling e deeplearning
+> 
+>     Pesquisa sobre de metodos e algoritmos para diferentes tipos de degradação de imagem.
+> * Etapa 2 (2 semana): Obtenção de dados públicos de imagens de alta e baixa resolução de paisagens e rostos humanos 
+> 
+>     Será feito uma busca e criação de datasets de imagens para o treinamento do modelo.
+>     
+> * Etapa 3 (3 semanas): Codificação e Testes.
+> 
+>     Codificação e treinamento de ferramentas utilizando python(PyTorch) e formatação de uma GUI,  Além de comparação qualitativa dos resultados.
+>     
+> * Etapa 4 (2 semanas): Relatório Final.
+>      Formatação do relatorio final descrevendo os metodos utilizados, a base matemática do projeto, e os resultados finais.
+>     
+
+## Referências Bibliográficas
+Underwater image enhancement: a comprehensive review,recent trends, challenges and applications Smitha Raveendran1 · Mukesh D. Patil2 · Gajanan K. Birajdar1
+
+An In-Depth Survey of Underwater Image
+Enhancement and Restoration
+MIAO YANG 1,2,3,5,6, (Member, IEEE), JINTONG HU1
+, (Member, IEEE), CHONGYI LI 4
+,GUSTAVO ROHDE 5,6, (Member, IEEE), YIXIANG DU1, AND KE HU1
+
+Lecture 3: Image Restoration B14 Image Analysis Michaelmas 2014 A. Zisserman
+
+Bringing Old Photos Back to Life
+Ziyu Wan, Bo Zhang, Dongdong Chen, Pan Zhang, Dong Chen, Jing Liao, Fang Wen
+
 python-demo
 ==============================
 
