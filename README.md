@@ -35,7 +35,7 @@ oferecida no primeiro semestre de 2022, na Unicamp, sob supervisão da Profa. Dr
 >      
 > * Etapa 5 (1 semanas): Criação de um vídeo demonstrando o projeto.
 > 
->       publicação do video ,com propósito educativo, de todas as etapas, resultados e desafios do projeto afim de melhor divulgação científica do tema. 
+>      Publicação do video ,com propósito educativo, de todas as etapas, resultados e desafios do projeto afim de melhor divulgação científica do tema. 
 >     
 
 ## Referências Bibliográficas
