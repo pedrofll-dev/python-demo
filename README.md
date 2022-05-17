@@ -37,6 +37,11 @@ oferecida no primeiro semestre de 2022, na Unicamp, sob supervisão da Profa. Dr
 > 
 >      Publicação do video ,com propósito educativo, de todas as etapas, resultados e desafios do projeto afim de melhor divulgação científica do tema. 
 >     
+## Novos métodos
+
+> * Utilização do modelo Real-ESRGAN/ ESRGAN
+>   para criação de modelos customizados para imagens artificiais
+
 
 ## Referências Bibliográficas
 
