@@ -42,8 +42,21 @@ oferecida no primeiro semestre de 2022, na Unicamp, sob supervisão da Profa. Dr
 > * Utilização do modelo Real-ESRGAN/ ESRGAN
 >   para criação de modelos customizados para imagens artificiais
 ## Resultados Parciais
->   teste com modelos já preestabelecidos- real-esrgan-4x
+>   teste com modelos já preestabelecidos- real-esrgan-4x e 2x
 >   Aplicação baseada em [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).
+>   * mudança no tamanho do upscaling (4x para 2x) devido ao aumento significativo do tamanho dos arquivos. 
+### About Real-ESRGAN
+
+![realesrgan_logo](https://github.com/xinntao/Real-ESRGAN/raw/master/assets/realesrgan_logo.png)  
+Real-ESRGAN is a Practical Algorithms for General Image Restoration.
+
+> [[Paper](https://arxiv.org/abs/2107.10833)] [[Project Page]](https://github.com/xinntao/Real-ESRGAN) &emsp; [[YouTube Video](https://www.youtube.com/watch?v=fxHWoDSSvSc)] [[Bilibili](https://www.bilibili.com/video/BV1H34y1m7sS/)] &emsp; [[Poster](https://xinntao.github.io/projects/RealESRGAN_src/RealESRGAN_poster.pdf)] [[PPT slides](https://docs.google.com/presentation/d/1QtW6Iy8rm8rGLsJ0Ldti6kP-7Qyzy6XL/edit?usp=sharing&ouid=109799856763657548160&rtpof=true&sd=true)]<br>
+> [Xintao Wang](https://xinntao.github.io/), Liangbin Xie, [Chao Dong](https://scholar.google.com.hk/citations?user=OSDCB0UAAAAJ), [Ying Shan](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en) <br>
+> Tencent ARC Lab; Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
+
+![img](https://github.com/xinntao/Real-ESRGAN/raw/master/assets/teaser.jpg)
+**Note that RealESRGAN may still fail in some cases as the real-world degradations are really too complex.**
+
 
 ## Referências Bibliográficas
 
