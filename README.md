@@ -47,6 +47,7 @@ oferecida no primeiro semestre de 2022, na Unicamp, sob supervisão da Profa. Dr
 >   * mudança no tamanho do upscaling (4x para 2x) devido ao aumento significativo do tamanho dos arquivos. 
 >   * teste em huds - ver pasta de imagens 
 >   * problemas na criação de subimagens para um novo modelo específico (alta utilização de vram)
+>  
 ### About Real-ESRGAN
 
 ![realesrgan_logo](https://github.com/xinntao/Real-ESRGAN/raw/master/assets/realesrgan_logo.png)  
@@ -59,6 +60,27 @@ Real-ESRGAN is a Practical Algorithms for General Image Restoration.
 ![img](https://github.com/xinntao/Real-ESRGAN/raw/master/assets/teaser.jpg)
 **Note that RealESRGAN may still fail in some cases as the real-world degradations are really too complex.**
 
+### Instalação
+
+1. Clone repo
+
+    ```bash
+    git clone https://github.com/xinntao/Real-ESRGAN.git
+    cd Real-ESRGAN
+    ```
+
+1. Install dependent packages
+
+    ```bash
+    # Install basicsr - https://github.com/xinntao/BasicSR
+    # We use BasicSR for both training and inference
+    pip install basicsr
+    # facexlib and gfpgan are for face enhancement
+    pip install facexlib
+    pip install gfpgan
+    pip install -r requirements.txt
+    python setup.py develop
+    ```
 
 ## Referências Bibliográficas
 
