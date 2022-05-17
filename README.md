@@ -41,7 +41,9 @@ oferecida no primeiro semestre de 2022, na Unicamp, sob supervisão da Profa. Dr
 
 > * Utilização do modelo Real-ESRGAN/ ESRGAN
 >   para criação de modelos customizados para imagens artificiais
-
+## Resultados Parciais
+>   teste com modelos já preestabelecidos- real-esrgan-4x
+>   Aplicação baseada em [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).
 
 ## Referências Bibliográficas
 
