@@ -39,6 +39,9 @@ oferecida no primeiro semestre de 2022, na Unicamp, sob supervisão da Profa. Dr
 >     
 
 ## Referências Bibliográficas
+
+Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data
+Xintao Wang, Liangbin Xie, Chao Dong, Ying Shan
 Underwater image enhancement: a comprehensive review,recent trends, challenges and applications Smitha Raveendran1 · Mukesh D. Patil2 · Gajanan K. Birajdar1
 
 An In-Depth Survey of Underwater Image
