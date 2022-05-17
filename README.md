@@ -39,12 +39,14 @@ oferecida no primeiro semestre de 2022, na Unicamp, sob supervisão da Profa. Dr
 >     
 ## Novos métodos
 
-> * Utilização do modelo Real-ESRGAN/ ESRGAN
+> * Utilização do modelo Real-ESRGAN/ ESRGAN como principal referência dado a utilização de texturas artificiais.
 >   para criação de modelos customizados para imagens artificiais
 ## Resultados Parciais
 >   teste com modelos já preestabelecidos- real-esrgan-4x e 2x
 >   Aplicação baseada em [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).
 >   * mudança no tamanho do upscaling (4x para 2x) devido ao aumento significativo do tamanho dos arquivos. 
+>   * teste em huds - ver pasta de imagens 
+>   * problemas na criação de subimagens para um novo modelo específico (alta utilização de vram)
 ### About Real-ESRGAN
 
 ![realesrgan_logo](https://github.com/xinntao/Real-ESRGAN/raw/master/assets/realesrgan_logo.png)  
