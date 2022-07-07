@@ -91,7 +91,9 @@ Real-ESRGAN is a Practical Algorithms for General Image Restoration.
 Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data
 Xintao Wang, Liangbin Xie, Chao Dong, Ying Shan
 Underwater image enhancement: a comprehensive review,recent trends, challenges and applications Smitha Raveendran1 · Mukesh D. Patil2 · Gajanan K. Birajdar1
+
 https://www.reedbeta.com/blog/understanding-bcn-texture-compression-formats/
+
 An In-Depth Survey of Underwater Image
 Enhancement and Restoration
 MIAO YANG 1,2,3,5,6, (Member, IEEE), JINTONG HU1
