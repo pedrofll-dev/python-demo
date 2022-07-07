@@ -22,17 +22,18 @@ oferecida no primeiro semestre de 2022, na Unicamp, sob supervisão da Profa. Dr
 > - (LR): mesma imagens com danos de compressão utilizando bc1 e bc5
 > - modelagens adotadas: Uso do ESRGAN  como modelo de arquitetura base para removedor de danos de imagens;
 > - Ferramenta traiNNer/Basic-sr para treino da rede com discriminador VGG.
+> - Uso da GUI cupscale para teste do modelo finalizado (https://github.com/n00mkrad/cupscale)
 > - Simplificações: 
 Mudança do upscaling original do ESRGAN de 4x para 1x para economia de memória e maior velocidade no treinamento do modelo.
 Downscaling do dataset(HR) e utilizando filtros do tipo box sem criação de artefatos ou perda de qualidade perceptivel para reduzir o uso de memória;
-> - 
+
 
 
 
 
 ## Resultados Finais
 > Foi obtido um modelo customizado de ajuste fino para utilização em conjunto com o ESRGAN na restauração de danos de imagens em especial danos causados por compressão do tipo "block" ,comum em mapas texturas de videogames antigos, e alguns mapas de texturas modificadas do jogo Left for dead 2;
-> *Validação: PNSR = 32.5
+> *Validação: PNSR = 32,5 SSIM = 0,93
 > * exemplos:
 https://imgsli.com/MTE1NjY5
 https://imgsli.com/MTE1Njcw
