@@ -33,7 +33,7 @@ Downscaling do dataset(HR) e utilizando filtros do tipo box sem criação de art
 
 ## Resultados Finais
 > Foi obtido um modelo customizado de ajuste fino para utilização em conjunto com o ESRGAN na restauração de danos de imagens em especial danos causados por compressão do tipo "block" ,comum em mapas texturas de videogames antigos, e alguns mapas de texturas modificadas do jogo Left for dead 2;
-> *Validação: PNSR = 32,5 SSIM = 0,93
+> * Validação: PNSR = 32,5 SSIM = 0,93
 > * exemplos:
 https://imgsli.com/MTE1NjY5
 https://imgsli.com/MTE1Njcw
