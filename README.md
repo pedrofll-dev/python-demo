@@ -30,7 +30,7 @@ Downscaling do dataset(HR) e utilizando filtros do tipo box sem criação de art
 > Foi obtido um modelo customizado para utilização em conjunto com o ESRGAN na restauração de danos de imagens em especial danos causados por compressão do tipo "block" ,comum em mapas texturas de videogames antigos,
 
 ## Discussão
-> * Não foi possível implementar o modelo customizado para a criação de um novo conjunto de texturas de um videogame específico, foram testados os jogos Doom(1993) Doom 3 (2004) e Fallout3(2008),No caso o processo de modificação demonstrou requerer muito tempo e um conhecimento específico das engines dos jogos citados.
+> * Não foi possível implementar o modelo customizado para a criação de um novo conjunto de texturas de um videogame específico, foram testados os jogos Doom(1993) Doom 3 (2004) e Fallout3(2008).No caso o processo de modificação demonstrou requerer muito tempo e um conhecimento específico das engines dos jogos citados.
 > * As principais dificuldades durante o projeto foram a utilização do dataset, sendo inicialmente utilizado um simples dataset de imagens customizadas de screenshoots de alta resolução de outros jogos, no qual o modelo customizado se demonstrou ineficiente (resultados deletados). Após tal incidente foi utilizado um dataset de imagens realistas.
 > * Outra dificuldade foi o tempo de execução do treino dos dados sendo o tempo médio de 1000 iterações 30 min, mesmo após todas as modificações apresentadas anteriormente. Foram realizadas mais de 100000 iterações no total.
 > * Limitações: bom funcionamento para danos de compressão ,mas danos do tipo dither e outras tipos de ruído não apresentam efeitos satisfatórios.
