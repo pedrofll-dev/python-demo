@@ -25,7 +25,7 @@ oferecida no primeiro semestre de 2022, na Unicamp, sob supervisão da Profa. Dr
 > - Uso da GUI cupscale para teste do modelo finalizado (https://github.com/n00mkrad/cupscale)
 > - Simplificações: 
 Mudança do upscaling original do ESRGAN de 4x para 1x para economia de memória e maior velocidade no treinamento do modelo.
-Downscaling do dataset(HR) e utilizando filtros do tipo box sem criação de artefatos ou perda de qualidade perceptivel para reduzir o uso de memória;
+Downscaling do dataset(HR) utilizando filtros do tipo box sem criação de artefatos ou perda de qualidade perceptivel para reduzir o uso de memória;
 
 
 
