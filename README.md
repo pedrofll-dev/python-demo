@@ -21,6 +21,7 @@ oferecida no primeiro semestre de 2022, na Unicamp, sob supervisão da Profa. Dr
 > - bases de imagens: div2k(https://data.vision.ee.ethz.ch/cvl/DIV2K/), flickr2k( http://cv.snu.ac.kr/research/EDSR/Flickr2K.tar), e imagens customizadas como dataset de alta resolução(HR);
 > - (LR): mesma imagens com danos de compressão utilizando bc1 e bc5
 > - modelagens adotadas: Uso do ESRGAN  como modelo de arquitetura base para removedor de danos de imagens;
+> - Ferramenta traiNNer/Basic-sr para treino da rede com discriminador VGG.
 > - Simplificações: 
 Mudança do upscaling original do ESRGAN de 4x para 1x para economia de memória e maior velocidade no treinamento do modelo.
 Downscaling do dataset(HR) e utilizando filtros do tipo box sem criação de artefatos ou perda de qualidade perceptivel para reduzir o uso de memória;
