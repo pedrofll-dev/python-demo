@@ -49,7 +49,7 @@ Downscaling do dataset(HR) e utilizando filtros do tipo box sem criação de art
 >   * Utilização do dataset div2k(https://data.vision.ee.ethz.ch/cvl/DIV2K/) e outras imagens customizadas como conjunto de dados de alta resolução (HR) 
 >   * Downscaling do dataset(HR) utilizando filtros do tipo box sem criação de artefatos ou perda de qualidade perceptivel para reduzir o uso de memória.
 >   * mudança do scaling de 2x para 1x
->   * Treino da rede ESRGAN utilizando o dataset e a ferramenta traiNNer(https://github.com/victorca25/traiNNer)/Basic-sr 
+>   * Treino da rede ESRGAN utilizando o dataset e a ferramenta traiNNer(https://github.com/victorca25/traiNNer)    /Basic-sr 
 >   * Teste em imagens com dano de compressão do tipo "block"
 >   * Resultados satisfatorios
 ### About Real-ESRGAN
