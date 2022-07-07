@@ -51,16 +51,15 @@ Por exemplo: se seu modelo tiver 10.000 iterações com tamanho de lote 4, ele v
 > *Modelo de pré-treinamento: O modelo usado para ajuste fino. Deve ser semelhante ao que você deseja que seu modelo ajustado seja, ou muito neutro.
 > *Checkpoint: Um modelo que foi salvo durante o treinamento.
 > * LR: Baixa resolução - A parte de seus dados de treinamento que se assemelha ao tipo de imagem em que você deseja usar seu modelo.
-> *HR: Alta resolução - A parte de seus dados de treinamento que se assemelha ao que você deseja que seu modelo produza.
-> *Augmentation: O processo de tornar suas imagens LR intencionalmente "piores" para fazer a IA aprender a melhorá-las.
+> * HR: Alta resolução - A parte de seus dados de treinamento que se assemelha ao que você deseja que seu modelo produza.
+> * Augmentation: O processo de tornar suas imagens LR intencionalmente "piores" para fazer a IA aprender a melhorá-las.
 Exemplos: compactação JPEG, pontilhamento, desfoque, ruído
-> *Tamanho do Lote(batch size): A quantidade de imagens processadas por iteração de treinamento. Um número mais alto significa treinamento mais lento e maior uso de memória, mas geralmente melhores resultados.
-> *HR Size: O tamanho dos blocos cortados automaticamente que são usados ​​como dados de treinamento. Como o nome indica, é baseado na imagem HR, portanto, o tamanho HR 256 em um modelo em escala 4x significa que os blocos LR seriam 64px.
-O tamanho do LR é o que afeta o consumo de VRAM, portanto, certifique-se de alterar isso se alterar a escala do seu modelo. Um modelo 1x de 64px usará tanto VRAM quanto um modelo 8x de 512px.
-> *Validação: O processo de "benchmarking" do seu modelo durante o treinamento e cálculo de certas métricas para ajudá-lo a ver o desempenho do modelo.
-> *Discriminador: A parte da IA que tenta dizer se a imagem do gerador é real ou falsa. BasicSR oferece VGG, PatchGAN e PatchGAN multiescala.
+> * Tamanho do Lote(batch size): A quantidade de imagens processadas por iteração de treinamento. Um número mais alto significa treinamento mais lento e maior uso de memória, mas geralmente melhores resultados.
+> * HR Size: O tamanho dos blocos cortados automaticamente que são usados ​​como dados de treinamento. 
+> * Validação: O processo de "benchmarking" do seu modelo durante o treinamento e cálculo de certas métricas para ajudá-lo a ver o desempenho do modelo.
+> * Discriminador: A parte da IA que tenta dizer se a imagem do gerador é real ou falsa. BasicSR oferece VGG, PatchGAN e PatchGAN multiescala.
 Função de Perda: Calcula métricas que informam ao gerador o desempenho dele. Usado em combinação com a perda GAN (Adversarial), mas também pode ser usado sozinho, com o GAN desabilitado.
-> *Taxa de aprendizado: quão rápido o modelo treina. Por padrão, diminui lentamente para tornar o modelo mais estável com o tempo.
+> * Taxa de aprendizado: quão rápido o modelo treina. Por padrão, diminui lentamente para tornar o modelo mais estável com o tempo.
 ## Novos métodos
 
 > * Utilização do modelo Real-ESRGAN/ ESRGAN como principal referência dado a utilização de texturas artificiais.
